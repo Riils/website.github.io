@@ -47,7 +47,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background:dimgrey;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -90,7 +90,7 @@ nav img{
  }
 
  .hero-btn:hover{
-    border: 1px solid #f44336;
+    border: 1px solid cadetblue;
     background: cadetblue ;
     transition: 1s;
  }
@@ -110,7 +110,7 @@ nav img{
 
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: cadetblue;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -148,7 +148,7 @@ h1{
 }
 
 p{
-    color: #777;
+    color: #000000;
     font-size:14px;
     font-weight: 300;
     line-height: 22px;
@@ -163,7 +163,7 @@ p{
 
 .tentang-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: cadetblue;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -242,7 +242,32 @@ h3{
     opacity: 1;
 
 }
+.stand{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+ .stand-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+ }
+ 
+ .stand-col img{
+     width: 100%;
+    border-radius: 10px;
+ }
 
+ .stand-col p{
+    padding: 0;
+ }
 
+ .stand-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+ }
 
 
